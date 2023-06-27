@@ -1,0 +1,113 @@
+.container {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("../../assets/imagenes-gif/fondoLandingPage.png") no-repeat center
+      center fixed;
+  background-size: cover;
+  max-height: 100vh;
+  min-height: 100vh;
+  height: 100vh;
+  color: #ececf1;
+}
+
+.contall {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  height: 100%;
+}
+
+.innercont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: center;
+  padding: 15px;
+}
+
+.name {
+  color: blanchedalmond;
+  margin: 10px;
+  margin-bottom: 5px;
+  transition: 0.3s ease-in-out;
+  font-size: 40px;
+}
+
+.name:hover {
+  font-size: 42px;
+  color: #128888;
+}
+
+.rigth {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 5px black solid;
+}
+
+.description {
+  font-size: x-small;
+  width: 900px;
+  max-width: 900px;
+  max-height: 200px;
+  overflow: auto;
+  border: 3px solid blanchedalmond;
+  padding: 3px;
+}
+
+.lowerinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.img {
+  max-width: 515px;
+  max-height: 515px;
+}
+
+h2 {
+  margin: 15px;
+}
+
+.lowerinfo ul {
+  margin-right: 10px;
+}
+
+.lowerinfo h2 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.lowerinfo li {
+  margin-right: 50px;
+}
+
+.link {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  border: 2px solid black;
+  padding: 15px;
+  color: black;
+  transition: 0.4s ease-in-out;
+  background-color: var(--deep-sky-blue);
+}
+
+.link:hover {
+  background-color: #282828;
+  color: var(--deep-sky-blue);
+}
+
+.link:focus {
+  transform: scale(1.05);
+}
